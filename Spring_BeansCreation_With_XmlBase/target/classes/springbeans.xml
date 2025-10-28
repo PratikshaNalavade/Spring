@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+	"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+	
+	<beans>
+	 <!--  
+	<bean class ="com.entities.Employee">
+	<property name="emp_id" value="121"></property>
+	<property name="ename" value="Shweta"></property>
+	<property name="salary" value="20000"></property>
+	
+	
+	
+	
+	</bean>
+	-->
+	
+	<bean id="emp" class ="com.entities.Employee">
+	<constructor-arg index="0" value="122"></constructor-arg>
+	<constructor-arg index="1" value="Reshma"></constructor-arg>
+	<constructor-arg index="2" value="30000"></constructor-arg>
+	
+	</bean>
+
+	
+	</beans>
